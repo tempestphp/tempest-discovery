@@ -6,5 +6,5 @@ namespace Tempest\Discovery;
 
 interface DiscoversPath
 {
-    public function discoverPath(string $path): void;
+    public function discoverPath(DiscoveryLocation $location, string $path): void;
 }
